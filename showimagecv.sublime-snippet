@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+cv2.imshow('${2:Image}',${1:img})
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>show-image-with-opencv</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

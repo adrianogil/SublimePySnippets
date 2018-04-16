@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+for c in xrange(0, 3):
+    for y in xrange(0, ${1:height}):
+        for x in xrange(0, ${2:width}):
+            ${3:img}[y,x,c] = ${4}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>for-each-pixel-channel</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

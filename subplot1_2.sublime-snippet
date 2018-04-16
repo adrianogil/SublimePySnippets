@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${5:from matplotlib import pyplot as plt}
+plt.subplot(121),plt.imshow(${1:img1})
+plt.title('${2:Image 1}'), plt.xticks([]), plt.yticks([])
+plt.subplot(122),plt.imshow(${3:img2})
+plt.title('${4:Image 2}'), plt.xticks([]), plt.yticks([])
+plt.show()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>subplot-1-2</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

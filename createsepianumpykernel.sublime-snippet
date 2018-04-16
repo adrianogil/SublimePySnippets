@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${10:numpy_matrix} = ${11:np.}array(
+                [
+                    [0.272, 0.534, 0.131],
+                    [0.349, 0.686, 0.168],
+                    [0.393, 0.769, 0.189]
+                ]
+               )
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>create-sepia-numpy-matrix</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
