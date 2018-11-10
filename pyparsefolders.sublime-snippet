@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:import os
+import fnmatch
+from os.path import join}
+
+for root, subFolders, files in os.walk(${2:root_path}):
+    for filename in fnmatch.filter(files, file_extension):
+        ${3:file_path = join(root, filename)}
+            
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>parse all files in a path</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
