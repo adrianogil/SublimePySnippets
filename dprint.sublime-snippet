@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+# Debug print
+debug_mode = ${1:False}
+def dprint(msg):
+    if debug_mode:
+        print("${2:Debug}: " + msg)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>dprint</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
