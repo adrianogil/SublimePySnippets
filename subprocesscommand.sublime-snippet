@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:subprocess}_cmd = $2
+$1_output = subprocess.check_output(${1:subprocess}_cmd, shell=True)
+$1_output = $1_output.strip()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>subprocess command</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
