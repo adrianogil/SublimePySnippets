@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+datetime.datetime.strptime(${1:date_str}, ${2:"%Y.%m.%d-%Hh%Mm"})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>convert string to date</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
